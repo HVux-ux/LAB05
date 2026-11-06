@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "cities": [
+    {
+      "city": "Hanoi",
+      "region": "north",
+      "airport": "HAN",
+      "best_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "daily_budget_usd": {
+        "budget": 35,
+        "mid": 75,
+        "luxury": 190
+      }
+    },
+    {
+      "city": "Ninh Binh",
+      "region": "north",
+      "airport": "HAN",
+      "best_months": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ],
+      "daily_budget_usd": {
+        "budget": 28,
+        "mid": 55,
+        "luxury": 120
+      }
+    },
+    {
+      "city": "Sa Pa",
+      "region": "north",
+      "airport": "HAN",
+      "best_months": [
+        3,
+        4,
+        9,
+        10,
+        11
+      ],
+      "daily_budget_usd": {
+        "budget": 30,
+        "mid": 62,
+        "luxury": 140
+      }
+    },
+    {
+      "city": "Ha Long",
+      "region": "north",
+      "airport": "HAN",
+      "best_months": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ],
+      "daily_budget_usd": {
+        "budget": 45,
+        "mid": 95,
+        "luxury": 240
+      }
+    },
+    {
+      "city": "Hue",
+      "region": "central",
+      "airport": "HUI",
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        12
+      ],
+      "daily_budget_usd": {
+        "budget": 30,
+        "mid": 62,
+        "luxury": 150
+      }
+    },
+    {
+      "city": "Da Nang",
+      "region": "central",
+      "airport": "DAD",
+      "best_months": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "daily_budget_usd": {
+        "budget": 32,
+        "mid": 70,
+        "luxury": 175
+      }
+    },
+    {
+      "city": "Hoi An",
+      "region": "central",
+      "airport": "DAD",
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "daily_budget_usd": {
+        "budget": 34,
+        "mid": 74,
+        "luxury": 185
+      }
+    },
+    {
+      "city": "Nha Trang",
+      "region": "central",
+      "airport": "CXR",
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "daily_budget_usd": {
+        "budget": 30,
+        "mid": 65,
+        "luxury": 160
+      }
+    },
+    {
+      "city": "Da Lat",
+      "region": "central",
+      "airport": "DLI",
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        12
+      ],
+      "daily_budget_usd": {
+        "budget": 28,
+        "mid": 58,
+        "luxury": 135
+      }
+    },
+    {
+      "city": "Ho Chi Minh City",
+      "region": "south",
+      "airport": "SGN",
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        11,
+        12
+      ],
+      "daily_budget_usd": {
+        "budget": 38,
+        "mid": 82,
+        "luxury": 210
+      }
+    },
+    {
+      "city": "Can Tho",
+      "region": "south",
+      "airport": "SGN",
+      "best_months": [
+        1,
+        2,
+        3,
+        11,
+        12
+      ],
+      "daily_budget_usd": {
+        "budget": 26,
+        "mid": 52,
+        "luxury": 115
+      }
+    },
+    {
+      "city": "Phu Quoc",
+      "region": "south",
+      "airport": "PQC",
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        11,
+        12
+      ],
+      "daily_budget_usd": {
+        "budget": 40,
+        "mid": 88,
+        "luxury": 230
+      }
+    }
+  ]
+}

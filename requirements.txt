@@ -1,0 +1,18 @@
+# Runtime dependencies for the Vietnam trip planner.
+#
+# Versions are lower bounds, loosely pinned: these are the versions the project
+# was developed against. `pandas>=2.2` covers the groupby/agg API used here;
+# `gradio>=5` avoids the 4.x callback API that changed in 5 and again in 6.
+pandas>=2.2
+gradio>=5.0
+requests>=2.31
+
+# Development / test only.
+pytest>=8.0
+
+# Optional, only needed for data/raw/*.parquet datasets:
+# pyarrow>=15.0
+
+# Optional, only needed for scripts/download_kaggle.py and only if you install
+# the Kaggle CLI yourself (it needs ~/.kaggle/kaggle.json, never commit it):
+# kaggle>=1.6
