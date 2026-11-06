@@ -59,8 +59,8 @@ def estimate_tokens(text: str) -> int:
 
 
 def estimate_messages_tokens(messages: list[dict[str, str]]) -> int:
-    # +4 tokens per message for the chat-format overhead, following the usual
-    # OpenAI-style rule of thumb. Close enough for budgeting.
+    # +4 tokens per message for the chat-format overhead: the usual rule of
+    # thumb for role/delimiter bookkeeping. Close enough for budgeting.
     return sum(estimate_tokens(m.get("content", "")) + 4 for m in messages)
 
 
